@@ -25,7 +25,7 @@ Rendimiento: Muy rápido. No importa si hay 2 o 200 archivos esperando, agregar 
 Uso: Es la ideal para que el usuario no note demoras al enviar su archivo.
 
 ### Estrategia 2:
-Inicio Fijo en Posición 0Aquí, cada vez que una hoja termina de imprimirse y sale de la cola, todos los demás documentos deben "moverse" una posición hacia adelante en la memoria para que el siguiente siempre esté en el índice 0.  
+Inicio Fijo en Posición. En esta estrategia, cada vez que una hoja termina de imprimirse y sale de la cola, todos los demás documentos deben "moverse" una posición hacia adelante en la memoria para que el siguiente siempre esté en el índice 0.  
 Rendimiento: Muy ineficiente. Si la cola está llena, la impresora pierde tiempo moviendo datos de lugar en vez de procesar el siguiente trabajo.  
 Uso: No se recomienda para sistemas con mucho tráfico de documentos.
 
