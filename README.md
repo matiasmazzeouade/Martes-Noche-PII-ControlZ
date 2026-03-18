@@ -5,9 +5,10 @@ El sistema funciona como el intermediario entre los usuarios y una impresora. Su
 ## ACTIVIDAD 1
 
 ### Alto Nivel (Usuario) Métodos:
-1-imprimir  
-2-escanear  
-3-fotocopiar  
+1-Inicializar (crear cola)
+2-imprimir  
+3-escanear  
+4-fotocopiar  
 
 ### Bajo Nivel (Implementadores) Métodos:
 1-agregarACola  
